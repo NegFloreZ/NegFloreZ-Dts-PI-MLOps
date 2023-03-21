@@ -68,4 +68,4 @@ Entrando en [https://dts-pi-mlops-production.up.railway.app/docs](https://negflo
 ## video
 
 Por ultimo se pide un video con el resultado del proceso que estará subido aquí   
-[]()
+[https://youtu.be/d2wbBvRXQxk](https://youtu.be/d2wbBvRXQxk)
