@@ -9,7 +9,7 @@ app= FastAPI(title='Consultas',
 
 @app.get('/')
 async def index():
-    hola='Bienvenidos, agreagando /docs a la ruta se accede a la documentacion.'
+    hola='Bienvenidos, agregando /docs a la ruta se accede a la documentacion.'
     return hola
 
 

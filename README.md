@@ -48,22 +48,22 @@ Las consultas se trabajaron bajo el formato:
     
 El deploy se hizo por medio de la plataforma [railway](https://railway.app/) creando una cuenta de usuario y enlazando nuestro GitHub.  
 Railway usa Nixpacks para compilar e implementar el código y soporta lenguajes como Python en este caso en concreto, solo hace falta un archivo JSON 
-con la configuración y aquí está el enlace con la app en producción [dts-pi-mlops-production.up.railway.app](https://dts-pi-mlops-production.up.railway.app/)  
+con la configuración y aquí está el enlace con la app en producción [dts-pi-mlops-production.up.railway.app](https://negflorez-dts-pi-mlops-production.up.railway.app/)  
 Ahora podemos revisar las consultas cargadas en la app que son:  
 
 Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN.  
-    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/max_duration/?year=2017&platform=amazon&duration_type=min](https://dts-pi-mlops-production.up.railway.app/max_duration/?year=2017&platform=amazon&duration_type=min)
+    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/max_duration/?year=2017&platform=amazon&duration_type=min](https://negflorez-dts-pi-mlops-production.up.railway.app/max_duration/?year=2017&platform=amazon&duration_type=min)
   
 Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año.  
-    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/score_count/?platform=netflix&score=3.5&year=2019](https://dts-pi-mlops-production.up.railway.app/score_count/?platform=netflix&score=3.5&year=2019)
+    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/score_count/?platform=netflix&score=3.5&year=2019](https://negflorez-dts-pi-mlops-production.up.railway.app/score_count/?platform=netflix&score=3.5&year=2019)
 
 Cantidad de películas por plataforma con filtro de PLATAFORMA.  
-    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/count_platform/hulu](https://dts-pi-mlops-production.up.railway.app/count_platform/hulu)
+    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/count_platform/hulu](https://negflorez-dts-pi-mlops-production.up.railway.app/count_platform/hulu)
 
 Actor que más se repite según plataforma y año.  
-    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/actor/?platform=disney&year=2015](https://dts-pi-mlops-production.up.railway.app/actor/?platform=disney&year=2015)
+    Consulta de ejemplo: [https://dts-pi-mlops-production.up.railway.app/actor/?platform=disney&year=2015](https://negflorez-dts-pi-mlops-production.up.railway.app/actor/?platform=disney&year=2015)
     
-Entrando en [https://dts-pi-mlops-production.up.railway.app/docs](https://dts-pi-mlops-production.up.railway.app/docs) se puede acceder a la documentación y probar otras consultas o directamente sobre la barra de direcciones.
+Entrando en [https://dts-pi-mlops-production.up.railway.app/docs](https://negflorez-dts-pi-mlops-production.up.railway.app/docs) se puede acceder a la documentación y probar otras consultas o directamente sobre la barra de direcciones.
 
 ## video
 
